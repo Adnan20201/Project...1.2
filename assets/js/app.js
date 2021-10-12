@@ -40,6 +40,12 @@ $(function (){
 
 
       $("#backTotop").click(function(){
-        $('html, body').animate({scrollTop:0} ,2000);
+        $('html, body').animate({scrollTop:0} ,500);
       });
+
+      /*Preloader Start*/
+      $(window).on('load',function(){
+        $('#preloader').fadeOut(700);
+      })
+      /*Preloader End*/
 }); 
