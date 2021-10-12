@@ -48,4 +48,9 @@ $(function (){
         $('#preloader').fadeOut(700);
       })
       /*Preloader End*/
+
+      /*CounterUP Start*/
+      $('.counter').counterUp({
+        time: 1000
+      });
 }); 
